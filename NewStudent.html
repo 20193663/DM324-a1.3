@@ -11,15 +11,17 @@
             <li><a href="index.html" >Home</a></li>
             <li><a href="list.html" >Students List</a></li>
             <li><a href="NewStudent.html" class="active"  >New Student</a></li>
-            <li class="nav-right"><a href="Logout.html">Logout</a></li>
+            <li class="nav-right"><a href="login.html">Logout</a></li>
         </ul>
             
 <hr/>
-<p>
-    New Student
-</p>
+
+<h1 ><p class="titel">New Student</p></h1> 
 
 <form action="#" method="POST">
+    <!--Personal Information-->
+    <fieldset >
+        <legend>Personal Information</legend>
     <p>
         <label>
             Full name :
@@ -39,12 +41,38 @@
             <input type="radio" name="gender" value="female"> female
         </label>
     </p>
+    </fieldset>
+    <!--#Personal Information-->
+
+    <!--Contact Info-->
+    <fieldset >
+        <legend>Contact Information</legend>
+    <p>
+        <label>
+            Email: 
+            <input type="email" name="txtEmail">
+
+        </label>
+    </p>
+    <p>
+        <label>
+            Phone: 
+            <input type="tel" name="txtPhone">
+
+        </label>
+    </p>
     <p>
         <label>
             address :
             <textarea rows="5" cols="100" name="Address"></textarea>
         </label>
     </p>
+    </fieldset>
+    <!--#Contact Info-->
+
+    <!--University Info-->
+    <fieldset>
+        <legend>University Information</legend>
     <p>
         <label>
             Faculty:
@@ -54,9 +82,10 @@
             </select>
         </label>
     </p>
+    </fieldset>
     <p>
         <label>
-            <input type="submit">
+            <input type="submit" class="button">
         </label>
     </p>
 </form>

@@ -1,3 +1,12 @@
+h1 .titel{
+    background-color: #533066;
+    text-align: center;
+    color:black;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+}
 ul{
     list-style-type: none;
     border: 1px solid black;
@@ -49,4 +58,52 @@ tbody tr:nth-child(odd){
 img{
     margin-left: 25%;
     margin-right: 25%;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.login{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 14px;
+    margin: 150px;
+    background-color: #533066;
+    /*background-color: lightblue;*/
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.button{
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #0e63ae;
+    border-color: #0d5ca2;
+    overflow: visible;
+    
+}
+fieldset{
+    margin: 20px;
 }
