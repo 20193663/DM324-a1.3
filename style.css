@@ -102,8 +102,27 @@ form {
     background-color: #0e63ae;
     border-color: #0d5ca2;
     overflow: visible;
+    border:2;
+    padding: 15px 32px;
+    font-size:14px;
+    display: inline-block;
     
 }
 fieldset{
     margin: 20px;
+}
+
+input[type=text],[type=email],[type=tel],[type=date],select,textarea{
+    width: 50%;
+    padding: 6px 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-align: justify;
 }
