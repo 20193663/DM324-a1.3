@@ -71,7 +71,11 @@ form {
     border: 1px solid black;
     border-radius: 15px;
     padding: 14px;
-    margin: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    margin-bottom: 155px;
+    width: fixed;
     background-color: #533066;
     /*background-color: lightblue;*/
 }
@@ -112,8 +116,8 @@ fieldset{
     margin: 20px;
 }
 
-input[type=text],[type=email],[type=tel],[type=date],select,textarea{
-    width: 50%;
+input[type=text],[type=email],[type=tel],[type=date],[type=password],select,textarea{
+    /*width: 100%;*/
     padding: 6px 10px;
     margin: 8px 0px;
     box-sizing: border-box;
